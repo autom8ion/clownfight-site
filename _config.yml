@@ -1,0 +1,4 @@
+theme: jekyll-theme-minimal
+title: Clown Fight
+plugins:
+  - jekyll-relative-links
