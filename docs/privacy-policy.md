@@ -1,6 +1,6 @@
 # Clown Fight Privacy Policy
 
-_Last updated: 1 November 2026_
+_Last updated: 7 November 2026_
 
 Clown Fight is a game for iPhone and iPad made by Kyle Tice ("we"). This policy explains what happens to
 your information when you play it. The short version: **we don't collect any.**
@@ -53,6 +53,13 @@ Clown Fight is made to be safe for children. Because we collect no personal info
 from children either. That includes no information under the US Children's Online Privacy Protection Act (COPPA) or
 the EU and UK General Data Protection Regulation (GDPR). The name a child types stays on the device. There's no chat
 and no way for players to contact each other in the game, and there are no links out of the game.
+
+## This website
+
+The Clown Fight website has no cookies, analytics, ads or trackers, and loads nothing from other sites: its fonts and
+pictures come from the site itself. It's hosted on GitHub Pages, which may log visitors' IP addresses to keep the
+service secure, as described in [GitHub's privacy statement](https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement).
+We don't see or use those logs.
 
 ## Changes to this policy
 
