@@ -1,0 +1,11 @@
+# GitHub Pages (Settings → Pages → Deploy from a branch → main, /docs).
+# The source of these files is the game's repository (docs/ there; tools/site/build.py rebuilds docs/site/).
+# index.html is the landing page and is served as-is (it has no front matter).
+# support.md and privacy-policy.md become support.html and privacy-policy.html, also reachable as
+# /support and /privacy-policy. They use _layouts/default.html, which matches the landing page.
+title: Clown Fight
+description: A pixel-art slapstick fighting game for iPhone, iPad and Apple TV.
+lang: en
+
+# The site lives at https://autom8ion.github.io/clownfight-site/. With a custom domain, set this to "".
+baseurl: /clownfight-site

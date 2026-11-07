@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+<meta name="theme-color" content="#141238">
+<link rel="icon" type="image/png" sizes="32x32" href="site/favicon-32.png">
+<link rel="apple-touch-icon" href="site/icon-180.png">
+<link rel="stylesheet" href="site/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="./"><img src="site/icon-180.png" alt="" width="32" height="32">Clown Fight</a>
+    <nav class="nav" aria-label="Pages">
+      <a href="./">Home</a>
+      <a href="support.html">Support</a>
+      <a href="privacy-policy.html">Privacy</a>
+    </nav>
+  </div>
+</header>
+<main id="main" class="page">
+  <div class="wrap">
+    <article>
+{{ content }}
+    </article>
+  </div>
+</main>
+<footer class="foot">
+  <div class="wrap">
+    <nav aria-label="Footer">
+      <a href="./">Clown Fight</a>
+      <a href="support.html">Support</a>
+      <a href="privacy-policy.html">Privacy Policy</a>
+    </nav>
+    <p>© 2026 Kyle Tice. All rights reserved.</p>
+    <p>Apple, the Apple logo, iPhone, iPad, Apple TV and Game Center are trademarks of Apple Inc., registered in the
+      U.S. and other countries and regions. App Store is a service mark of Apple Inc.</p>
+  </div>
+</footer>
+</body>
+</html>

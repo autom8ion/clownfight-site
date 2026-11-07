@@ -1,0 +1,463 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Clown Fight: Circus Brawl</title>
+<meta name="description" content="Twelve clowns. One volunteer. A lot of pie. A pixel-art slapstick fighting game and 1–4 player beat 'em up for iPhone, iPad and Apple TV. Pay once: no ads, no in-app purchases, plays offline.">
+<meta name="theme-color" content="#141238">
+<!-- TODO(owner): if the site moves to a custom domain, change https://autom8ion.github.io/clownfight-site/ below. -->
+<link rel="canonical" href="https://autom8ion.github.io/clownfight-site/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Clown Fight">
+<meta property="og:title" content="Clown Fight: Circus Brawl">
+<meta property="og:description" content="Slap your way through the circus. Twelve clowns, one volunteer, a lot of pie. Pay once: no ads, no in-app purchases, plays offline.">
+<meta property="og:url" content="https://autom8ion.github.io/clownfight-site/">
+<meta property="og:image" content="https://autom8ion.github.io/clownfight-site/site/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Clown Fight title over a pixel-art circus ring, with Pip Squeak, Daisy Dribble and Burpo the clowns">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Clown Fight: Circus Brawl">
+<meta name="twitter:description" content="Slap your way through the circus. Pay once: no ads, no in-app purchases, plays offline.">
+<meta name="twitter:image" content="https://autom8ion.github.io/clownfight-site/site/og.png">
+<meta name="apple-itunes-app" content="app-id=6829367413">
+<link rel="icon" type="image/png" sizes="32x32" href="site/favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="site/icon-192.png">
+<link rel="apple-touch-icon" href="site/icon-180.png">
+<link rel="preload" href="site/font/clownfight-pixel.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="site/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="./"><img src="site/icon-180.png" alt="" width="32" height="32">Clown Fight</a>
+    <nav class="nav" aria-label="Sections">
+      <a href="#clowns">The clowns</a>
+      <a href="#modes">Game modes</a>
+      <a href="#how">How to play</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <a class="btn-small" href="https://apps.apple.com/app/id6829367413">Get it</a>
+  </div>
+</header>
+
+<main id="main">
+
+<section class="hero" aria-labelledby="hero-title" style="padding-bottom:0">
+  <div class="wrap hero-grid">
+    <div class="hero-copy hero-top">
+      <p class="callout">You! Third row! Yes, you with the face!</p>
+      <h1 class="title" id="hero-title"><img class="px" src="site/title.png" alt="Clown Fight!" width="240" height="112"></h1>
+      <p class="tagline">Slap your way through the circus.</p>
+    </div>
+    <div class="hero-copy hero-bottom">
+      <p class="lead">You've been pulled from the crowd as tonight's volunteer, and the only way out is to beat all
+        twelve clowns on the bill. The funny kind of clown game, not the scary kind: no gore, no jump scares, just
+        slapstick and an awful lot of pie.</p>
+      <div class="cta-row" id="get">
+        <a class="badge-link" href="https://apps.apple.com/app/id6829367413"><img src="site/app-store-badge.svg" alt="Download on the App Store" width="162" height="54"></a>
+        <p class="platforms">iPhone · iPad · Apple TV</p>
+      </div>
+      <ul class="chips" aria-label="The deal">
+        <li>Pay once</li><li>No ads</li><li>No in-app purchases</li><li>Plays offline</li>
+      </ul>
+    </div>
+    <div class="stage-window" role="img" aria-label="In the circus ring, a kid in a dinosaur hoodie throws a cream pie at Pip Squeak the clown. Splat. Honk.">
+      <div class="stage">
+        <div class="sprite kid"></div>
+        <div class="sprite pip"></div>
+        <div class="sprite pie"></div>
+        <div class="sprite splat"></div>
+        <div class="bubble" aria-hidden="true">Honk!</div>
+      </div>
+    </div>
+  </div>
+  <div class="bulbs" aria-hidden="true"></div>
+</section>
+
+<section class="stats" aria-label="Clown Fight in numbers">
+  <div class="wrap">
+    <ul>
+      <li><b>12</b><span>clowns on the bill</span></li>
+      <li><b>20</b><span>places to parade</span></li>
+      <li><b>1–4</b><span>players in co-op</span></li>
+      <li><b>0</b><span>ads, ever</span></li>
+    </ul>
+  </div>
+</section>
+
+<section class="clowns" id="clowns" aria-labelledby="clowns-title">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="kicker">Tonight's bill</span>
+      <h2 class="pixel" id="clowns-title">Meet the clowns</h2>
+      <p>Twelve clowns of every shape and size, each fighting their own way. Beat one and you learn their super.
+        Notes from the Ringmaster, who is no help at all.</p>
+    </div>
+    <ol class="bill">
+      <li class="card" style="--tint:var(--sky)">
+        <span class="num">#1</span>
+        <div class="art"><img class="px" src="site/clowns/pipsqueak.png" alt="Pip Squeak, a tiny clown with a propeller cap" width="80" height="104"></div>
+        <div class="info"><h3 class="pixel">Pip Squeak</h3>
+          <dl><dt>Weight:</dt> <dd>3 balloons</dd><dt>From:</dt> <dd>A very small car</dd></dl>
+          <p class="quip">“He's smaller than he looks, and he looks very small.”</p></div>
+      </li>
+      <li class="card" style="--tint:var(--lime)">
+        <span class="num">#2</span>
+        <div class="art"><img class="px" src="site/clowns/daisydribble.png" alt="Daisy Dribble, a clown in a green top hat with a squirting flower" width="96" height="208"></div>
+        <div class="info"><h3 class="pixel">Daisy Dribble</h3>
+          <dl><dt>Weight:</dt> <dd>1 wet towel</dd><dt>From:</dt> <dd>The plumbing</dd></dl>
+          <p class="quip">“She waters her flower with what, exactly? Don't ask.”</p></div>
+      </li>
+      <li class="card" style="--tint:var(--orange)">
+        <span class="num">#3</span>
+        <div class="art"><img class="px" src="site/clowns/burpo.png" alt="Burpo, a round clown in green polka dots" width="144" height="176"></div>
+        <div class="info"><h3 class="pixel">Burpo</h3>
+          <dl><dt>Weight:</dt> <dd>All of it</dd><dt>From:</dt> <dd>The snack tent</dd></dl>
+          <p class="quip">“Please do not feed the clown.”</p></div>
+      </li>
+      <li class="card" style="--tint:#b7c4ea">
+        <span class="num">#4</span>
+        <div class="art"><img class="px" src="site/clowns/weepywendell.png" alt="Weepy Wendell, a sad hobo clown with a bindle" width="112" height="176"></div>
+        <div class="info"><h3 class="pixel">Weepy Wendell</h3>
+          <dl><dt>Weight:</dt> <dd>Heavy heart</dd><dt>From:</dt> <dd>The railroad</dd></dl>
+          <p class="quip">“Don't feel bad for him. Okay, feel a little bad.”</p></div>
+      </li>
+      <li class="card" style="--tint:var(--pink)">
+        <span class="num">#5</span>
+        <div class="art"><img class="px" src="site/clowns/twistytess.png" alt="Twisty Tess, a bendy clown with a balloon" width="144" height="192"></div>
+        <div class="info"><h3 class="pixel">Twisty Tess</h3>
+          <dl><dt>Weight:</dt> <dd>Mostly air</dd><dt>From:</dt> <dd>A balloon animal</dd></dl>
+          <p class="quip">“She made a dog. Then the dog made a dog.”</p></div>
+      </li>
+      <li class="card" style="--tint:var(--sun)">
+        <span class="num">#6</span>
+        <div class="art"><img class="px" src="site/clowns/rowdybuckles.png" alt="Rowdy Buckles, a rodeo clown in a cowboy hat" width="128" height="176"></div>
+        <div class="info"><h3 class="pixel">Rowdy Buckles</h3>
+          <dl><dt>Weight:</dt> <dd>1 bull (loaned)</dd><dt>From:</dt> <dd>The rodeo</dd></dl>
+          <p class="quip">“The bull has asked to be left out of this.”</p></div>
+      </li>
+      <li class="card" style="--tint:var(--teal)">
+        <span class="num">#7</span>
+        <div class="art"><img class="px" src="site/clowns/arlodiamante.png" alt="Arlo Diamante, a harlequin with a slapstick" width="112" height="192"></div>
+        <div class="info"><h3 class="pixel">Arlo Diamante</h3>
+          <dl><dt>Weight:</dt> <dd>A flourish</dd><dt>From:</dt> <dd>Italy, he says</dd></dl>
+          <p class="quip">“He is very pleased with himself.”</p></div>
+      </li>
+      <li class="card tall" style="--tint:var(--sky)">
+        <span class="num">#8</span>
+        <div class="art"><img class="px" src="site/clowns/stiltsmcgee.png" alt="Stilts McGee, a very tall clown on striped stilts" width="128" height="464"></div>
+        <div class="info"><h3 class="pixel">Stilts McGee</h3>
+          <dl><dt>Weight:</dt> <dd>Unknown (up there)</dd><dt>From:</dt> <dd>Above</dd></dl>
+          <p class="quip">“Go for the legs. The top's in another county.”</p></div>
+      </li>
+      <li class="card" style="--tint:#d9cfff">
+        <span class="num">#9</span>
+        <div class="art"><img class="px" src="site/clowns/poorpierrot.png" alt="Poor Pierrot, a pale, lovesick clown in white" width="112" height="224"></div>
+        <div class="info"><h3 class="pixel">Poor Pierrot</h3>
+          <dl><dt>Weight:</dt> <dd>One tear</dd><dt>From:</dt> <dd>The moon, emotionally</dd></dl>
+          <p class="quip">“He wrote you a poem. It's about losing.”</p></div>
+      </li>
+      <li class="card" style="--tint:#e9e8f2">
+        <span class="num">#10</span>
+        <div class="art"><img class="px" src="site/clowns/monsieurhush.png" alt="Monsieur Hush, a mime in a beret, hands up against an invisible wall" width="96" height="192"></div>
+        <div class="info"><h3 class="pixel">Monsieur Hush</h3>
+          <dl><dt>Weight:</dt> <dd>(No comment)</dd><dt>From:</dt> <dd>(Points at wall)</dd></dl>
+          <p class="quip">“He'd like a word. No. He wouldn't.”</p></div>
+      </li>
+      <li class="card" style="--tint:var(--grape)">
+        <span class="num">#11</span>
+        <div class="art"><img class="px" src="site/clowns/sirjingles.png" alt="Sir Jingles, a jester with bells and juggling pins" width="112" height="192"></div>
+        <div class="info"><h3 class="pixel">Sir Jingles</h3>
+          <dl><dt>Weight:</dt> <dd>4 pins, 9 bells</dd><dt>From:</dt> <dd>The king's bad side</dd></dl>
+          <p class="quip">“He dropped all seven pins on his foot.”</p></div>
+      </li>
+      <li class="card boss" style="--tint:#3a367f">
+        <span class="num">#12 · Top of the bill</span>
+        <div class="art"><img class="px" src="site/clowns/grinly.png" alt="Grinly, a grinning clown in a dark suit" width="128" height="224"></div>
+        <div class="info"><h3 class="pixel">Grinly</h3>
+          <dl><dt>Weight:</dt> <dd>Don't</dd><dt>From:</dt> <dd>Down the stairs</dd></dl>
+          <p class="quip">“He doesn't stop smiling. I've asked.”</p>
+          <p class="story">Long ago, this circus was the happiest place in the world. Then, one stormy night, Grinly
+            came. One by one, he stole every clown's laugh and hid it in his grin. Every clown you beat remembers how
+            to laugh again.</p></div>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<section class="features" id="modes" aria-labelledby="modes-title">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="kicker">The whole tent</span>
+      <h2 class="pixel" id="modes-title">More than one ring</h2>
+      <p>One price gets you all of it. Nothing is locked behind a shop, because there isn't one.</p>
+    </div>
+
+    <article class="feature">
+      <div>
+        <h3 class="pixel">One-on-one fights</h3>
+        <p>Slap, karate chop and kick your way past squirting flowers, flying burgers, rubber-noodle flurries, bull
+          rushes and a mime who won't explain himself.</p>
+        <ul>
+          <li>Chains, juggles, grabs, super jumps, lightning kicks and slide tackles</li>
+          <li>Learn a super from every clown you beat</li>
+          <li>Finish fights with a <strong>Showstopper</strong>: a pie, a noogie, a cannonball or a super</li>
+          <li>Easy, Medium, Hard and CLOWN?? difficulty</li>
+        </ul>
+      </div>
+      <div class="feature-art">
+        <div class="frame"><img class="px" src="site/scenes/feature-fight.png" alt="A kid uppercuts Rowdy Buckles clean off his feet in the sawdust ring" width="512" height="288"><span class="tag">Ding ding!</span></div>
+      </div>
+    </article>
+
+    <article class="feature flip">
+      <div>
+        <h3 class="pixel">Circus Parade: 1–4 players</h3>
+        <p>A full side-scrolling beat 'em up. The clown gang has stolen every balloon in town, and it's up to you and
+          up to three friends to get them back.</p>
+        <ul>
+          <li>20 places, from the Midway and the Funhouse to the Hall of Fame</li>
+          <li>Pick up props, throw pies and find hidden rooms</li>
+          <li>Co-op for up to four players with game controllers</li>
+        </ul>
+      </div>
+      <div class="feature-art">
+        <div class="frame"><img class="px" src="site/scenes/feature-parade.png" alt="Four kids team up on the Midway against two clowns from the gang, with a cream pie in the air" width="512" height="288"><span class="tag">Team up!</span></div>
+      </div>
+    </article>
+
+    <article class="feature">
+      <div>
+        <h3 class="pixel">The rest of the tent</h3>
+        <ul>
+          <li><strong>Pie Toss:</strong> earn pies by winning, then throw them at any clown you like</li>
+          <li><strong>Sideshow games:</strong> Chicken Shy, juggling, rubber chickens and the unicycle</li>
+          <li><strong>Clown Frenzy:</strong> clowns keep coming. How long can you last?</li>
+          <li><strong>Versus:</strong> two players, with controllers or sharing an iPad</li>
+        </ul>
+      </div>
+      <div class="feature-art">
+        <ul class="sideshow">
+          <li style="--tint:var(--sky)"><span class="toss"><img class="px" src="site/sprites/toss-pip.png" alt="" width="72" height="62"><img class="px creamed" src="site/sprites/toss-pip-creamed.png" alt="" width="72" height="62"></span>Pie Toss</li>
+          <li style="--tint:var(--sun)"><span class="pair"><img class="px" src="site/sprites/chicken.png" alt="" width="54" height="45"><img class="px" src="site/sprites/goldchicken.png" alt="" width="36" height="30"></span>Chicken Shy</li>
+          <li style="--tint:var(--lime)"><span class="pair"><img class="px" src="site/sprites/club.png" alt="" width="27" height="57"><img class="px" src="site/sprites/ball.png" alt="" width="33" height="33"><img class="px" src="site/sprites/club.png" alt="" width="27" height="57"></span>Juggling</li>
+          <li style="--tint:var(--pink)"><img class="px" src="site/sprites/rubberchicken.png" alt="" width="84" height="42">Rubber Chickens</li>
+          <li style="--tint:var(--teal)"><img class="px" src="site/sprites/unicycle.png" alt="" width="54" height="84">Unicycle</li>
+          <li style="--tint:var(--orange)"><img class="px" src="site/sprites/star.png" alt="" width="51" height="51">Clown Frenzy</li>
+          <li style="--tint:#d9cfff"><span class="pair"><img class="px" src="site/sprites/heart.png" alt="" width="39" height="45"></span>Versus</li>
+          <li style="--tint:var(--grape)"><img class="px" src="site/sprites/clowncar-small.png" alt="" width="88" height="56">And more</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="feature flip">
+      <div>
+        <h3 class="pixel">Make it your kid</h3>
+        <p>Dress your volunteer for the occasion. The occasion is clowns.</p>
+        <ul>
+          <li>21 hairstyles and head coverings, 8 skin tones and 11 outfits, from dinosaur hoodies to karate gis</li>
+          <li>Glasses, goggles, hearing aids, freckles, and dyes for every outfit</li>
+          <li>Up to six players per device, each with their own kid and progress</li>
+        </ul>
+      </div>
+      <div class="feature-art">
+        <ul class="wardrobe" aria-label="Six example kids">
+          <li><img class="px" src="site/kids/kid1.png" alt="A boy with curly hair in overalls" width="80" height="136"></li>
+          <li><img class="px" src="site/kids/kid2.png" alt="A girl with an afro in a tutu" width="80" height="136"></li>
+          <li><img class="px" src="site/kids/kid3.png" alt="A girl with ginger pigtails and freckles in a dinosaur hoodie" width="80" height="136"></li>
+          <li><img class="px" src="site/kids/kid4.png" alt="A boy with a mohawk and glasses in a karate gi" width="80" height="136"></li>
+          <li><img class="px" src="site/kids/kid5.png" alt="A girl in a headwrap with a cape and goggles" width="80" height="136"></li>
+          <li><img class="px" src="site/kids/kid6.png" alt="A boy in a top hat and ringmaster's coat" width="80" height="136"></li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="feature">
+      <div>
+        <h3 class="pixel">Big screen, real buttons</h3>
+        <p>Play on iPhone and iPad with touch or any game controller, in landscape or portrait. On Apple TV, grab a
+          controller (or two) and fight from the sofa. One purchase covers all of them.</p>
+        <ul>
+          <li>Xbox, PlayStation and MFi controllers</li>
+          <li>Game Center achievements and leaderboards</li>
+          <li>Left-handed controls, adjustable text size and a calmer flashes option</li>
+          <li>Original chiptune score</li>
+        </ul>
+      </div>
+      <div class="feature-art">
+        <div class="tv" role="img" aria-label="A television showing the Clown Fight title screen">
+          <div class="screen">
+            <img class="px" src="site/title.png" alt="" width="240" height="112">
+            <span class="start" aria-hidden="true">Press start</span>
+            <span class="medals" aria-hidden="true"><img class="px" src="site/sprites/star.png" alt="" width="34" height="34"><img class="px" src="site/sprites/star.png" alt="" width="34" height="34"><img class="px" src="site/sprites/star.png" alt="" width="34" height="34"></span>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="feature flip">
+      <div>
+        <h3 class="pixel">Made for the whole family</h3>
+        <p>Rated 9+. The clowns get pied, squirted and tripped up, and nobody gets hurt. You pay once and that's
+          everything: no ads, nothing to buy inside, no account, and no data collected. It all works offline, on a
+          plane or in the car.</p>
+      </div>
+      <div class="feature-art">
+        <ul class="tickets">
+          <li style="--tint:var(--sun)">Pay once</li>
+          <li style="--tint:var(--teal)">No ads</li>
+          <li style="--tint:var(--pink)">No in-app purchases</li>
+          <li style="--tint:var(--sky)">Plays offline</li>
+          <li style="--tint:var(--lime)">No data collected</li>
+          <li style="--tint:var(--orange)">Rated 9+</li>
+        </ul>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="how" id="how" aria-labelledby="how-title">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="kicker">How to play</span>
+      <h2 class="pixel" id="how-title">Easy to learn. Hard to stop laughing.</h2>
+      <p>A practice round before the first fight teaches the basics, and the move list is always one pause away.</p>
+    </div>
+    <ol class="steps">
+      <li><div class="pic"><img class="px" src="site/sprites/ringmaster.png" alt="" width="72" height="104"></div>
+        <div><h3 class="pixel">Get picked</h3><p>The Ringmaster pulls you out of the third row. Congratulations: you're tonight's volunteer.</p></div></li>
+      <li><div class="pic"><img class="px" src="site/clowns/pipsqueak.png" alt="" width="80" height="104"></div>
+        <div><h3 class="pixel">Watch the tell</h3><p>Every clown warns you first. Pip honks: once, block. Twice, duck. Three times, jump!</p></div></li>
+      <li><div class="pic"><img class="px" src="site/kids/kid4.png" alt="" width="80" height="136"></div>
+        <div><h3 class="pixel">Slap, chop, kick</h3><p>Chain your hits, juggle clowns in the air, grab, super jump and slide tackle.</p></div></li>
+      <li><div class="pic"><img class="px" src="site/sprites/pie.png" alt="" width="88" height="48"></div>
+        <div><h3 class="pixel">Showstopper!</h3><p>Learn a super from every clown you beat, then end the fight in style. A pie works.</p></div></li>
+    </ol>
+  </div>
+</section>
+
+<section class="screens" id="screens" aria-labelledby="screens-title">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="kicker">In the ring</span>
+      <h2 class="pixel" id="screens-title">Screenshots</h2>
+    </div>
+    <!-- Screenshot slots: drop real ones in at docs/site/screens/1.png to 4.png (landscape, about 16:9).
+         Until then each slot shows the pixel scene named in its onerror. -->
+    <ul class="shots">
+      <li><figure class="shot"><div class="pic"><img src="site/screens/1.png" alt="A one-on-one fight in the Funhouse: a kid kicks Burpo" width="1024" height="576" loading="lazy" onerror="this.onerror=null;this.className='px';this.src='site/scenes/fallback-1.png'"></div>
+        <figcaption>Twelve clowns, each fighting their own way.</figcaption></figure></li>
+      <li><figure class="shot"><div class="pic"><img src="site/screens/2.png" alt="Circus Parade: four kids march down the street toward the clown car" width="1024" height="576" loading="lazy" onerror="this.onerror=null;this.className='px';this.src='site/scenes/fallback-2.png'"></div>
+        <figcaption>Circus Parade: bring up to three friends.</figcaption></figure></li>
+      <li><figure class="shot"><div class="pic"><img src="site/screens/3.png" alt="Pie Toss: clown faces lined up in the ring, waiting for a pie" width="1024" height="576" loading="lazy" onerror="this.onerror=null;this.className='px';this.src='site/scenes/fallback-3.png'"></div>
+        <figcaption>Pie Toss: pick a face, any face.</figcaption></figure></li>
+      <li><figure class="shot"><div class="pic"><img src="site/screens/4.png" alt="Clown Frenzy at midnight: a kid flying-kicks between two clowns" width="1024" height="576" loading="lazy" onerror="this.onerror=null;this.className='px';this.src='site/scenes/fallback-4.png'"></div>
+        <figcaption>Clown Frenzy: how long can you last?</figcaption></figure></li>
+    </ul>
+  </div>
+</section>
+
+<section class="faq" id="faq" aria-labelledby="faq-title">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="kicker">Questions</span>
+      <h2 class="pixel" id="faq-title">Frequently asked</h2>
+    </div>
+    <div class="faq-grid">
+    <div class="faq-list">
+      <details>
+        <summary>How much does it cost?</summary>
+        <div><p>You pay once on the App Store, and that's everything. There are no ads, no in-app purchases and no
+          subscriptions.</p></div>
+      </details>
+      <details>
+        <summary>Which devices does it run on?</summary>
+        <div><p>iPhone, iPad and Apple TV. It's one purchase for all three, so buy it once and it's on every device
+          signed in to your Apple Account.</p></div>
+      </details>
+      <details>
+        <summary>Do I need a game controller?</summary>
+        <div><p>Not on iPhone or iPad: the touch controls cover everything, and there's a left-handed layout. Any
+          controller that works with your device also works in the game, such as Xbox, PlayStation and MFi
+          controllers.</p>
+          <p>On Apple TV, fights need a game controller. The Siri Remote works the menus.</p></div>
+      </details>
+      <details>
+        <summary>Can we play together?</summary>
+        <div><p>Yes. Circus Parade is co-op for up to four players with game controllers. Versus is for two: on iPad,
+          one player can use touch while the other uses a controller, or both can use controllers. On iPhone and
+          Apple TV, connect two controllers.</p>
+          <p>Up to six kids can share one device, each with their own look and progress.</p></div>
+      </details>
+      <details>
+        <summary>Is it scary? What age is it for?</summary>
+        <div><p>It's the funny kind of clown game, not the scary kind. No gore, no jump scares, just slapstick and an
+          awful lot of pie. It's rated 9+ on the App Store. There's a calmer flashes option for anyone sensitive to
+          flashing lights.</p></div>
+      </details>
+      <details>
+        <summary>Which languages does it speak?</summary>
+        <div><p>Nine: English, Spanish, French, German, Italian, Brazilian Portuguese, Japanese, Korean and
+          Simplified Chinese.</p></div>
+      </details>
+      <details>
+        <summary>Does it work offline?</summary>
+        <div><p>Yes, all of it. You don't need an internet connection or Game Center. If you're signed in to Game
+          Center you also get achievements and leaderboards.</p></div>
+      </details>
+      <details>
+        <summary>What about privacy?</summary>
+        <div><p>The game collects no data. There's no account, no tracking, no analytics and no ads. This website
+          doesn't use cookies or trackers either. Read the <a href="privacy-policy.html">privacy policy</a>.</p></div>
+      </details>
+      <details>
+        <summary>Something's wrong. Who do I ask?</summary>
+        <div><p>Visit the <a href="support.html">support page</a> or email
+          <a href="mailto:avzrule@gmail.com">avzrule@gmail.com</a> with your device and what happened.</p></div>
+      </details>
+    </div>
+    <aside class="ask">
+      <img class="px" src="site/clowns/monsieurhush.png" alt="" width="96" height="192">
+      <div>
+        <h3 class="pixel">Still stuck?</h3>
+        <p>Monsieur Hush would love to explain. He won't, though. We will.</p>
+        <a class="btn-small" href="support.html">Get support</a>
+      </div>
+    </aside>
+    </div>
+  </div>
+</section>
+
+<section class="finale" aria-labelledby="finale-title">
+  <div class="wrap">
+    <span class="kicker">Last call</span>
+    <h2 class="pixel" id="finale-title">The tent is open</h2>
+    <p class="lead">Twelve clowns. One volunteer. A lot of pie. Take your seat, third row.</p>
+    <div class="cta-row">
+      <a class="badge-link" href="https://apps.apple.com/app/id6829367413"><img src="site/app-store-badge.svg" alt="Download on the App Store" width="162" height="54"></a>
+    </div>
+  </div>
+  <img class="car px" src="site/sprites/car.png" alt="" width="176" height="112">
+  <div class="road" aria-hidden="true"></div>
+</section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <nav aria-label="Footer">
+      <a href="support.html">Support</a>
+      <a href="privacy-policy.html">Privacy Policy</a>
+      <a href="mailto:avzrule@gmail.com">Contact</a>
+    </nav>
+    <p>© 2026 Kyle Tice. All rights reserved. Clown Fight is a work of fiction; its clowns are made up.</p>
+    <p>Apple, the Apple logo, iPhone, iPad, Apple TV and Game Center are trademarks of Apple Inc., registered in the
+      U.S. and other countries and regions. App Store is a service mark of Apple Inc.</p>
+  </div>
+</footer>
+</body>
+</html>
