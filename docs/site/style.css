@@ -542,3 +542,15 @@ section { padding: 64px 0; }
   .stage .splat, .stage .bubble { opacity: 1; }
   .car { left: auto; right: 10%; }
 }
+
+/* Secret acts: blurred cards for clowns the site doesn't name. */
+.secret-head { margin-top: 48px; }
+.secret-head h3 { font-size: 22px; margin: 4px 0 8px; }
+.bill.secret { list-style: none; padding: 0; }
+.card.mystery { background: var(--night); color: var(--on-night); }
+.card.mystery .art { background: radial-gradient(circle at 50% 45%, var(--night-2), var(--night-3)); }
+.card.mystery .art img { width: 144px; height: 144px; image-rendering: auto; }
+.card.mystery .quip { color: var(--on-night-soft); }
+.soon { display: inline-block; margin-left: 6px; padding: 1px 7px; border-radius: 999px; background: var(--sun);
+  color: #1f1d4f; font-size: 11px; font-weight: 700; font-style: normal; letter-spacing: .02em; vertical-align: middle; }
+.sideshow li .soon { margin: 4px 0 0; }
